@@ -1,0 +1,14 @@
+body{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+height: 3000px;
+}
+nav{
+position: fixed;
+background-color: blue;
+width: 100%;
+height: 100px;
+
+color: aliceblue;
+text-align: center;
+
+}
