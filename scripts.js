@@ -19,9 +19,9 @@ document
     card.style.opacity = '0';
     card.style.transform = 'translateY(20px)';
     card.style.transition = 'opacity 0.5s, transform 0.5s';
-    observer.observe(card);
+    alquini.observe(card);
   });
-  const observer = new IntersectionObserver(
+  const alquini = new IntersectionObserver(
   (entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
