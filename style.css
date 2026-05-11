@@ -3,12 +3,18 @@ body{
 height: 3000px;
 }
 nav{
-position: fixed;
-background-color: blue;
-width: 100%;
-height: 100px;
-
-color: aliceblue;
-text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #eee;
+  padding: 16px 32px;
+  
+  display: flex;
+  
+  align-items: center;
+  
+  text-align: center;
 
 }
